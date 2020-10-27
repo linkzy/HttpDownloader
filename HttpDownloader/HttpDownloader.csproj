@@ -2,6 +2,19 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>LinKzy</Authors>
+    <Description>The HttpDownloader derives from the WebClient class. It serves as a helper to download web pages.</Description>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/linkzy/HttpDownloader</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/linkzy/HttpDownloader</RepositoryUrl>
+    <PackageTags>http downloader; web scrapping; web scrapper</PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
