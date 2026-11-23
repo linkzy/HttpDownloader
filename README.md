@@ -1,11 +1,15 @@
 # HttpDownloader
-The HttpDownloader derives from the WebClient class. It serves as a helper to download web pages.
 
-The original code was found in [here](https://stackoverflow.com/questions/2700638/characters-in-string-changed-after-downloading-html-from-the-internet). To suit my needs i added a few modifications.
+A small C# helper that derives from the .NET `WebClient` class and serves as a helper to download web pages.
 
-# Usage
-````c#
-HttpDownloader _downloader = new HttpDownloader("https://www.google.com");
-string html = _downloader.GetPageHtml();
-````
+## What it is
 
+`HttpDownloader` is a small reusable helper that extends the .NET `System.Net.WebClient` class with web-page downloading capability.
+
+## What it demonstrates
+
+Subclassing the .NET `WebClient` base class to build a purpose-built HTTP page downloader.
+
+## How to run
+
+Library-style helper for .NET (C#): reference the project from any .NET application and use the downloader to fetch web pages.
